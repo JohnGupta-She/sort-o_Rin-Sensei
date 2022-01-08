@@ -1,30 +1,42 @@
+Team Rin-Sensei: Julia Kozak(Flopsy), Rin Fukuoka(Tape), John Gupta-She(Po)
+
+
 DISCO 
+- Number of passes are constant(n-1) regardless of the sorting methods. 
+- When the array is in increasing order(best case): 
+    -insertion sort makes the least number of comparisons.
+- When the array is in decreasing order(worst case): 
+    - all three sorting methods have the same number of compatrisons. 
+- When the array is randomized (neither in best or worst case):
+    -selection sort typically makes the least number of swaps.
+    -insertion sort typically makes the least number of comparisons.
 
 QCC
 
 
+
 BUB-QA:
 DISCO: 
--We can use the size, add, and set methods of ArrayLists to return an element of an ArrayList and add or change values in a desired place. 
--Comparables should be typecasted as ints or used with compareTo to compare their values, rather than using integer relational operators.
+- We can use the size, add, and set methods of ArrayLists to return an element of an ArrayList and add or change values in a desired place. 
+- Comparables should be typecasted as ints or used with compareTo to compare their values, rather than using integer relational operators.
 
 QCC: 
--Are we meant to get errors when setting "glen" and "coco" as new ArrayLists when testing bubbleSort in the main method, after they have already been declared for testing bubbleSortV?
+- Are we meant to get errors when setting "glen" and "coco" as new ArrayLists when testing bubbleSort in the main method, after they have already been declared for testing bubbleSortV?
 
 
 
 SEL-QA;
 DISCO: 
--Typecast elements of array in order to compare them. (Or use compareTo method)
+- Typecast elements of array in order to compare them. (Or use compareTo method)
 
 QCC: 
--Which is more efficient: SelectionSort or BubbleSort?
+- Which is more efficient: SelectionSort or BubbleSort?
  
 
 
 INS-QA:
 DISCO: 
--"break" will only break out of the innermost loop. Insertion Sort requires a pass for every element but the first.
+- "break" will only break out of the innermost loop. Insertion Sort requires a pass for every element but the first.
 
 QCC: 
--Are there sorting algorithms that can fully sort in less than n-1  passes?
+- Are there sorting algorithms that can fully sort in less than n-1  passes?
