@@ -102,7 +102,6 @@ public class Driver {
 				System.out.println();
 			}
 
-			System.out.println("-----");
 			ArrayList<Comparable> r100 = new ArrayList<Comparable>();
 			for (int i=0; i<5; i++) {
 				r100 = populate(100, 0, 199);
