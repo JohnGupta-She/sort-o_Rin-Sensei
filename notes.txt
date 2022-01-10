@@ -12,7 +12,7 @@ DISCO
     -insertion sort typically makes the least number of comparisons.
 
 QCC
-
+- Are there more optimal sorting procedures that have a big O that is smaller than n, for example log n?
 
 
 BUB-QA:
