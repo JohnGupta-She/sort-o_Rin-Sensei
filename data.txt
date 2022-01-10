@@ -1,0 +1,32 @@
+---------- BEST CASES ----------
+Bubble: size 10, passes 9, swaps 0, comparisons 45
+Selection: size 10, passes 9, swaps 9, comparisons 45
+Insertion: size 10, passes 9, swaps 0, comparisons 9
+
+Bubble: size 100, passes 99, swaps 0, comparisons 4950
+Selection: size 100, passes 99, swaps 99, comparisons 4950
+Insertion: size 100, passes 99, swaps 0, comparisons 99
+
+Bubble: size 1000, passes 999, swaps 0, comparisons 499500
+Selection: size 1000, passes 999, swaps 999, comparisons 499500
+Insertion: size 1000, passes 999, swaps 0, comparisons 999
+
+---------- WORST CASES ----------
+Bubble: size 10, passes 9, swaps 45, comparisons 45
+Selection: size 10, passes 9, swaps 9, comparisons 45
+Insertion: size 10, passes 9, swaps 45, comparisons 45
+
+Bubble: size 100, passes 99, swaps 4950, comparisons 4950
+Selection: size 100, passes 99, swaps 99, comparisons 4950
+Insertion: size 100, passes 99, swaps 4950, comparisons 4950
+
+Bubble: size 1000, passes 999, swaps 499500, comparisons 499500
+Selection: size 1000, passes 999, swaps 999, comparisons 499500
+Insertion: size 1000, passes 999, swaps 499500, comparisons 499500
+
+Analysis:
+- Passes for size n is always n-1, so passes is O(n).
+- Swaps:
+  - Bubble: for best case, swaps is 0, so it is O(1). For worst case, there are (n)(n-1)/2 swaps, so it is O(n^2).
+  - Selection: for best and worst case, swaps is n-1, so it is O(n).
+  - Insertion: for best case, swaps is 0, so it is O(1). For worst case, there are (n)(n-1)/2 swaps, so it is O(n^2).
